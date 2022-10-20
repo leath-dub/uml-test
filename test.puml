@@ -1,0 +1,13 @@
+@startuml
+
+Instance <|-- VulkanRootObject
+
+class Test {
+    -- Contructors & destructors --
+    - Instance()
+    
+    -- Public methods --
+    + Initialize() : bool
+}
+
+@enduml
